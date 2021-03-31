@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+}
+.title {
+  font-weight: 600;
+  color: #fceffd;
+  font-size: clamp(40px, 10vmin, 60px);
+  line-height: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  0px 4px 4px rgba(0, 0, 0, 0.25); 
+  text-align: center;
+}
+.section-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-container_blue {
+  background: linear-gradient(180deg, #86A0BE 0%, rgba(255, 255, 255, 0) 100%), rgba(80, 126, 243, 0.99);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url('https://raw.githubusercontent.com/aricagua/FCC/main/assets/images/Vector%202.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 100%;
+  background-size: auto;
+}
+#img-div {
+  z-index: 200;
+}
+
+figcaption{
+  display: none;
+}
+
+.section-container_purple {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 2.39%, rgba(6, 22, 77, 0.19) 96.28%), #3A2466;
+}
+.section-container_lila{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 100%), rgba(33, 40, 191, 0.42);
+}
+.section-container_yellow20 {
+  background-color: #C2B11B;
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.title__secondary {
+  color: #c2d896;
+  font-size: clamp(35px, 9vmin, 50px);
+  font-weight: 600;
+  text-align: center;
+  margin: 0px 30px;
+}
+.text-content {
+  font-size: clamp(20px, 6vmin, 30px);
+  font-weight: 400;
+
+}
+.text-content-1 {
+  color: #c2d896;
+ }
+.text-content-2 {
+  color:#65260E; 
+}
+.text-content-3 {
+  color: black;
+}
+.text-container {
+  padding: 0 30px;
+}
+.title__secondary_2 {
+  color: #65260e;
+}

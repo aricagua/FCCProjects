@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+  margin: 10px 40px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 10vmin;  
+}
+.bar-container {
+  width: 100%;
+  height: 4vh;
+  margin: 20px auto;
+  background-color: #c4c4c4;
+  border-radius: 8px;
+}
+.bar-container__progress {
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  background-color: #7d7a1d;
+  border-radius: 8px;
+}
+.text__information {
+  font-size: 7vmin;
+  font-weight: 700;
+  text-align: left;
+  margin: 10px auto 5px auto; 
+}
+.horizontal-line {
+  margin: 2px auto 10px auto;
+}
+.form-container {
+  display: grid;
+  grid-template-rows: 100% 100% 100%;
+  grid-row-gap: 20px;
+}
+.field-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vmin;
+}
+.buttons-container {
+  display: flex;
+  justify-content:space-between; 
+  margin-top: 30px;
+}
+.button_create {
+  width: 60%;
+  height: 6.3vh;
+  border-radius: 11px;
+  font-size: 3.8vmin;
+  background-color: #00F160;
+  color: black;
+}
+.button_cancel {
+  color: black;
+  height: 6.3vh;
+  background-color: #fd7e56;
+  border-radius: 11px;
+  font-size: 3.8vmin;
+  width: 35%;
+}
+.input {
+  box-shadow: none;
+  height: 4.5vh;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+}
+@media (min-width: 700px) {
+  .title {
+    font-size: 64px;
+  }
+  .text__information {
+    font-size: 36px;
+  }
+  .form-container {
+    font-size: 24px;
+  }
+  .button_create {
+    height: auto;
+    font-size: 48px;
+  }
+  .button_cancel {
+    height: auto;
+    font-size: 48px;
+  } 
+
+  
+		
+} 
