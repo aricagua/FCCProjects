@@ -32,25 +32,49 @@ html {
   position: absolute;
   top: 80px;
   right: calc(50% - 20vmax);
-  color: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.03);
 }
 .title-1 {
   font-family: Noto Serif, Arial, Helvetica, sans-serif;
   font-size: clamp(24px, 3.8vmin, 72px);
   text-align: center;
+  margin-top: 40px;
 }
 .title-2 {
   font-family: Merriweather Sans, Arial, Helvetica, sans-serif;
-  font-size: clamp(36px, 7vmin, 120px);
+  font-size: clamp(36px, 8vmin, 120px);
   text-align: center;
 
 }
 .nav-bar {
   font-family: Merriweather Sans, Arial, Helvetica, sans-serif;
   font-size: clamp(18px, 3vmin, 72px);
+  margin-top: 0px;
 }
 .nav-link {
   text-decoration:none;
-  color: black;
+  color: rgba(0, 0, 0, 0.51);
   border-top: medium solid black;
+  margin-left: 40px;
+}
+.selected {
+  color: black;
+  margin-left: 0;
+}
+.text-opcion {
+  margin-top: 5px;
+}
+.flavors {
+  text-decoration: none;
+  color: black;
+  border-radius: 25px;
+  padding: 12px 20px;
+  border: 1px solid #A69B9B;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+}
+.nav-container_together {
+  justify-content: center;
+  flex-wrap: wrap;
 }
