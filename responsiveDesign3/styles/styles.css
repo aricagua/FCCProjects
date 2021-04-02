@@ -78,3 +78,14 @@ html {
   justify-content: center;
   flex-wrap: wrap;
 }
+.ice-cream-container {
+  display: grid;
+  grid-template-columns:repeat(3, 24vmin); 
+  grid-template-rows:repeat(2, 21vmax);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 5px;
+}
+.ice-cream-container__ice-cream {
+  width: 100%;
+  height: auto;
+}
