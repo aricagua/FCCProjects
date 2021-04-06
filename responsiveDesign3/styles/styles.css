@@ -89,3 +89,12 @@ html {
   width: 100%;
   height: auto;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ice-cream-video {
+  border: solid 15px brown;
+  border-radius: 10px;
+}
