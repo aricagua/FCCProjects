@@ -24,7 +24,7 @@ body{
 .section-container_blue {
   background: linear-gradient(180deg, #86A0BE 0%, rgba(255, 255, 255, 0) 100%), rgba(80, 126, 243, 0.99);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-image: url('https://raw.githubusercontent.com/aricagua/FCC/main/assets/images/Vector%202.png');
+  background-image: url('https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign/assets/images/mobile/Vector%202.png');
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 100%;
@@ -79,4 +79,18 @@ figcaption{
 }
 .title__secondary_2 {
   color: #65260e;
+}
+.footer-text {
+  text-align: center;
+}
+.heart-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign/assets/images/mobile/akar-icons_heart.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 5px;
 }

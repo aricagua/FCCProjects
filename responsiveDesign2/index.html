@@ -4,38 +4,63 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/styles.css">
-	<title>Registration Process</title>
+	<title>Register Process</title>
 </head>
-<body>
-<h1 id="title" class="text title">Register process</h1>	
+<body class="principal-container">
+<header>
+  <h1 id="title" class="principal-container__title">Register process</h1>
+</header>	
 <div class="bar-container">
-  <div class="bar-container__progress"></div>
+  <div class="bar-container__progress">
+  </div>
 </div>
-	<p class="text text__information">Personal information</p>
-	<hr class="horizontal-line">
-	<form id="survey-form" class="form-container">
-	  <div class="field-container">
-	    <label for="name">
-	      <span class="text">Full Name</span>
-	    </label>
-	      <input class="input" type="text" id="name"name="user-name">
-	  </div>
-	  <div class="field-container">
-	    <label for="Email">
-	    <span class="text">Email</span>
-	  </label>
-	    <input class="input" type="email" id="email" name="user-email">
-	  </div>
-	  <div class="field-container">
-	    <label for="number">
-	      <span class="text">Number</span>
-	    </label>
-	    <input class="input" type="number" id="number" name="user-number">
-	  </div>
-	</form>
-	<div class="buttons-container">
-	  <button class="text button button_create">Create Account</button>
-	  <button class="text button button_cancel">Cancel</button>
-	</div>
+<div class="form-container">
+  <h2 class="form-container__title">
+    <p id="description">Personal Information</p>
+  </h2>
+  <hr class="form-container__horizontal-line">
+  <form id="survey-form" class="form-container__items">
+    <label id="name-label" for="name" class="form-container__label">
+      Full Name
+    </label>
+    <input required  placeholder="Name" type="text" id="name" name="Name" class="form-container__input">
+   <label id="email-label" for="email" class="form-container__label">
+      Email
+    </label>
+      <input required placeholder="Email" type="email" id="email" name="Email"  class="form-container__input">
+   <label id="number-label" for="number" class="form-container__label">
+     Age 
+    </label>
+      <input placeholder="Age" type="number" id="number" name="Age" min="10" max="80" class="form-container__input">
+    <label for="gender" class="form-container__label">Gender</label>
+    <select name="gender" id="dropdown" class="form-container__select">
+      <option value="Women">Women</option>
+      <option value="Male">Male</option>
+      <option value="Other">Other</option>
+    </select>
+    <p class="form-container__description">What tree do you want to plant?</p>
+    <div class="form-container__group-radio-select"> 
+      <label for="tree-choice1" class="form-container__label">Cedar<input value="cedar" type="radio" name="tree-choice" id="tree-choice1" ></label>
+      <label for="tree-choice2" class="form-container__label">Oak<input value="oak" type="radio" name="tree-choice" id="tree-choice2"></label>
+      <label for="tree-choice3" class="form-container__label">Pine tree<input value="pine-tree" type="radio" name="tree-choice" id="tree-choice3"></label>
+    </div>
+    <p class="form-container__description">How do you want to help us?</p>
+    <div class="form-container__group-checkbox"> 
+      <label for="task-choice1" class="form-container__label"><input value="sowing" type="checkbox" name="task-choice" id="task-choice1" class="form-container__checkbox">Sowing</label>
+      <label for="task-choice2" class="form-container__label"><input value="organization" type="checkbox" name="task-choice" id="task-choice2">Organization</label>
+      <label for="task-choice3" class="form-container__label"><input value="logistic" type="checkbox" name="task-choice" id="task-choice3">Logistics</label>
+    </div>
+    <div class="form-container__suggestions">
+      <p class="form-container__description">
+      Write us your suggestions
+      </p>
+      <textarea name="comments" id="tex-area" cols="30" rows="10" class="form-container__input-text" placeholder="comments"></textarea>
+    </div>
+    <div class="buttons-container">
+      <button id="submit" type="submit" class="buttons-container__button">Create Account</button>
+      <button type="submit" class="buttons-container__button_cancel">Cancel</button>
+     </div> 
+   </form>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>

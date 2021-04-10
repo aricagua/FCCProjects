@@ -98,3 +98,14 @@ html {
   border: solid 15px brown;
   border-radius: 10px;
 }
+.horizontal-line {
+  width: 50%;
+  margin: 30px auto;
+}
+.form-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
