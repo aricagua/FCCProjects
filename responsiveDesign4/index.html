@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/styles.css">
+	<title>Document</title>
+<body class="page">
+	<header class="header page__header">
+		<h1 class="header__title">HTTP DOCS</h1>
+	</header>	
+	<nav class="menu page__menu" id="navbar">
+	  <ul class="nav nav__menu">
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	HTTP / Overview
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	Components of HTTP-based systems
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	Basics aspects of HTTP
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	What can be controlled by HTTP
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	HTTP flow
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	HTTP messages
+		  </a></li>
+	  	<li class="nav__item"><a href="" class="nav__link">
+		  	APIs based on HTTP
+		  </a></li>
+	  </ul>
+	</nav>
+	<main id="main-doc" class="main page__main">
+		<section class="main-section section main__section" id="http-overview">
+		  <h2 class="section__title">HTTP / Overview</h2>
+		  <div class="section__content">
+		  	<p class="section__text">
+			    HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance text, layout description, images, videos, scripts, and more.
+			</p>
+		  </div>
+		</section>
+		<section class="main-section section main__section"></section>
+		  <h2 class="section__title">Components of HTTP based sytems</h2>
+		  <div class="section__content">
+		    <ul class="section__items">
+		    	<li class="section__item">Client (User Agent)</li>
+		    	<li class="section__item">Web Server</li>
+		    	<li class="section__item">Proxies</li>
+		    </ul>
+		  </div>
+		<section class="main-section section main__section">
+		  <h2 class="section__title">Basics Aspects of HTTP</h2>
+		  <div class="section__content">
+		    <ul class="section__items">
+		    	<li class="section__item">HTTP is Simple 
+			  <p class="section__text">
+			  	HTTP is generally designed to be simple and human 
+				readable, even with the added complexity introduced 
+				in HTTP/2 by encapsulating HTTP messages into 
+				frames. HTTP messages can be read and understood by 
+				humans, providing easier testing for developers, 
+				and reduced complexity for newcomers.
+			  </p><li>
+		    	<li class="section__item">HTTP is extensible
+			  <p class="section__text">
+			  	HTTP is generally designed to be simple and human 
+				readable, even with the added complexity introduced 
+				in HTTP/2 by encapsulating HTTP messages into 
+				frames. HTTP messages can be read and understood by 
+				humans, providing easier testing for developers, 
+				and reduced complexity for newcomers.
+			  </p>
+			</li>
+		    </ul>
+		  </div>
+		</section>
+		<section class="main-section section main__section"> <h2 class="section__title">What can be controlled by HTTP</h2>
+		  <div class="section__content">
+		    <ul class="section__items">
+		    	<li class="section__item">Caching</li>
+		    	<li class="section__item">Authentication</li>
+		    	<li class="section__item">Proxy and tunneling</li>
+		    </ul>
+		  </div>
+		</section>
+		<section class="main-section section main__section">
+			<h2 class="section__title">HTTP Flow</h2>
+			<ul class="section__items">
+				<li class="section__item">Open a TCP Connection</li>
+				<li class="section__item">Send an HTTP message
+      					<code class="section__code">
+						GET / HTTP/1.1 <br>
+						Host: developer.mozilla.org <br>
+						Accept-Language: fr 
+					</code>
+				</li>
+				<li class="section__item">Read the response sent by the server, such as
+				  <code class="section__code">
+				  	HTTP/1.1 200 OK <br>
+					Date: Monday, 13 Apr 2021 <br>
+					18:35 GMT <br>
+					Server: Apache <br>
+					Last Modified: Tue, 01 Dec 2009 20:18:2021 <br>
+					Accept range: Bytes <br>
+					Content Length: 2987 <br>
+					Content Type: <text> <br>
+					<!DOCTYPE> html.. (here comes the 29769 bytes of the requested web page).
+				  </code>
+				</li>
+				<li class="section__item">Close or reuse the connection for further requests.</li>
+			</ul>
+		</section>
+		<section class="main-section section main__section">
+			<h2 class="section__title">HTTP Messages</h2>
+			<ul class="section__items">
+				<li class="section__item">REQUEST
+					<img src="" alt="request in HTTP" class="img section__image">
+				</li>
+				<li class="section__item">RESPONSES</li>
+			</ul>
+	
+		</section>
+		<section class="main-section section main__section"></section>
+	</main>
+</body>
+</html>
