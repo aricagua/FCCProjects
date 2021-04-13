@@ -98,3 +98,14 @@ html {
   border: solid 15px brown;
   border-radius: 10px;
 }
+.flex-container_column {
+  flex-direction: column;
+  align-items: center;
+  line-height: 20px;
+}
+.input{
+	background: rgba(0, 200, 243, 0.31);
+	border: 1px solid rgba(255, 132, 132, 0.51);
+	border-radius: 23px;
+}
+
