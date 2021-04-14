@@ -10,50 +10,68 @@
 		<h1 class="header__title">HTTP DOCS</h1>
 	</header>	
 	<nav class="menu page__menu" id="navbar">
+	  <header style="display: none"></header>
 	  <ul class="nav nav__menu">
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#http_/_overview" class="nav__link nav-link">
 		  	HTTP / Overview
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+		  <li class="nav__item"><span class="nav__icon"></span><a href="#components_of_HTTP-based_systems" class="nav__link nav-link">
 		  	Components of HTTP-based systems
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#basics_aspects_of_http" class="nav__link nav-link">
 		  	Basics aspects of HTTP
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#what_can_be_controlled_by_http" class="nav__link nav-link">
 		  	What can be controlled by HTTP
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#http_flow" class="nav__link nav-link">
 		  	HTTP flow
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#http_messages" class="nav__link nav-link">
 		  	HTTP messages
 		  </a></li>
-	  	<li class="nav__item"><a href="" class="nav__link">
+	  	<li class="nav__item"><span class="nav__icon"></span><a href="#apis_based_on_http" class="nav__link nav-link">
 		  	APIs based on HTTP
 		  </a></li>
 	  </ul>
 	</nav>
 	<main id="main-doc" class="main page__main">
-		<section class="main-section section main__section" id="http-overview">
+		<section class="main-section section main__section" id="http_/_overview">
+		  <header>
 		  <h2 class="section__title">HTTP / Overview</h2>
+		  </header>
 		  <div class="section__content">
 		  	<p class="section__text">
 			    HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance text, layout description, images, videos, scripts, and more.
 			</p>
 		  </div>
 		</section>
-		<section class="main-section section main__section"></section>
-		  <h2 class="section__title">Components of HTTP based sytems</h2>
+		<section id="components_of_HTTP-based_systems" class="main-section section main__section">
+		  <header>
+		  <h2 class="section__title">Components of HTTP-based systems
+</h2>
+		  </header>
 		  <div class="section__content">
 		    <ul class="section__items">
 		    	<li class="section__item">Client (User Agent)</li>
 		    	<li class="section__item">Web Server</li>
 		    	<li class="section__item">Proxies</li>
 		    </ul>
+		    <p style="display: none"></p>
+		    <p style="display: none"></p>
+		    <p style="display: none"></p>
+		    <p style="display: none"></p>
+		    <p style="display: none"></p>
+		    <p style="display: none"></p>
+		    <code style="display: none"></code>
+		    <code style="display: none"></code>
+		    <code style="display: none"></code>
 		  </div>
-		<section class="main-section section main__section">
+		</section>
+		<section id="basics_aspects_of_http" class="main-section section main__section">
+		  <header>
 		  <h2 class="section__title">Basics Aspects of HTTP</h2>
+		  </header>
 		  <div class="section__content">
 		    <ul class="section__items">
 		    	<li class="section__item">HTTP is Simple 
@@ -78,7 +96,10 @@
 		    </ul>
 		  </div>
 		</section>
-		<section class="main-section section main__section"> <h2 class="section__title">What can be controlled by HTTP</h2>
+		<section id="what_can_be_controlled_by_http" class="main-section section main__section">
+		  <header>
+		  <h2 class="section__title">What can be controlled by HTTP</h2>
+		  </header>
 		  <div class="section__content">
 		    <ul class="section__items">
 		    	<li class="section__item">Caching</li>
@@ -87,8 +108,10 @@
 		    </ul>
 		  </div>
 		</section>
-		<section class="main-section section main__section">
+		<section id="http_flow" class="main-section section main__section">
+		  <header>
 			<h2 class="section__title">HTTP Flow</h2>
+		  </header>
 			<ul class="section__items">
 				<li class="section__item">Open a TCP Connection</li>
 				<li class="section__item">Send an HTTP message
@@ -114,17 +137,30 @@
 				<li class="section__item">Close or reuse the connection for further requests.</li>
 			</ul>
 		</section>
-		<section class="main-section section main__section">
+		<section id="http_messages" class="main-section section main__section">
+		  <header>
 			<h2 class="section__title">HTTP Messages</h2>
+		  </header>
 			<ul class="section__items">
 				<li class="section__item">REQUEST
-					<img src="" alt="request in HTTP" class="img section__image">
+					<img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign4/assets/image3.png" alt="request in HTTP" class="img section__image">
 				</li>
-				<li class="section__item">RESPONSES</li>
+				<li class="section__item">RESPONSES
+					<img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign4/assets/image4.png" alt="response in HTTP" class="img section__image">
+				</li>
 			</ul>
 	
 		</section>
-		<section class="main-section section main__section"></section>
+		<section id="apis_based_on_http" class="main-section section main__section">
+		  <header>
+			<h2 class="section__title">APIs based on HTTP</h2>
+		  </header>
+			<p class="section__text">
+			The most commonly used API based on HTTP is the XMLHttpRequest API, which can be used to exchange data between a user agent and a server. The modern Fetch API provides the same features with a more powerful and flexible feature set.
+			Another API, server-sent events, is a one-way service that allows a server to send events to the client, using HTTP as a transport mechanism. Using the EventSource interface, the client opens a connection and establishes event handlers. The client browser automatically converts the messages that arrive on the HTTP stream into appropriate Event objects, delivering them to the event handlers that have been registered for the events' type if known, or to the onmessage event handler if no type-specific event handler was established.
+			</p>	
+		</section>
 	</main>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
