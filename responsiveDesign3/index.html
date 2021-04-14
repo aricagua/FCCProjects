@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header id="header" class="header">
-	  <nav class="nav-container">
+	  <nav class="nav-container"> 
 	    <div class="logo-container">
 	      <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign3/assets/ion_logo-edge.png " alt="header-logo" id="header-img" class="images icon">
 	    </div>
@@ -17,14 +17,14 @@
 	      <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign3/assets/group.png" alt="menu-icon" class="images icon">
 	    </div>
 	  </nav>
-	</header>
 	<span class="watermark">ENJOY IT</span>
 	  <h1 class="text title-1">DISCOVER ALL <br><span class="title-2">ICE CREAM FLAVORS</span></h1>
-	  <nav class="nav-container nav-bar nav-container_together">
+	  <nav class="nav-container nav-bar nav-container_together" id="nav-bar">
 	    <a class="nav-link selected" href="#products-section"><p class="text text-opcion">PRODUCTS</p></a>
 	     <a class="nav-link"  href="#video-section"><p class="text text-opcion">VIDEO</p></a>
 	   <a class="nav-link" href="#form-section"><p class="text text-opcion">SUSCRIBE</p></a>
 	  </nav>
+	</header>
 	  <nav class="nav-container nav-bar nav-container_together">
 		<a href="" class="flavors">CHOCOLATE</a>	
 		<a href="" class="flavors">VANILLA</a>	
@@ -43,19 +43,23 @@
 	  <section id="video-section">
 	  <h2 class="text title-1">THE BEST <br><span class="title-2">FLAVORS</span></h2>
 	    <div class="flex-container">
-	      <video class="ice-cream-video"  src="https://static.videezy.com/system/resources/previews/000/046/326/original/chocolate_ice_cream_3.mp4" controls></video>
+	      <video class="ice-cream-video"  src="https://static.videezy.com/system/resources/previews/000/046/326/original/chocolate_ice_cream_3.mp4" id="video" controls></video>
 	  </div>
 	  </section>
 	  <section id="form-section" class="form-section">
 	    <hr class="horizontal-line">
             <h2 class="text title-1">DO NOT WAIT MORE<br><span class="title-2">SUSCRIBE</span></h2>
-	    <form id="form" class="form-container">
-	      <span class="icon"></span>
-	      <label for="email" class="form-container__label">
-		Email
-	      </label>
+	    <form id="form" class="form-container" action="https://www.freecodecamp.com/email-submit">
+	      <div class="form-container__label-container">
+		<div class="logo-container">
+		  <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign3/assets/Vector.png" alt="header-logo" id="header-img" class="images icon">
+		</div>
+		<label for="email" class="form-container__label">
+		  Email
+		</label>
+	      </div>
 	      <input class="form-container__input-email" type="email" name="email" id="email" placeholder="Email">
-	      <input class="form-container__input-submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">
+	      <input id="submit" class="form-container__input-submit" type="submit">
 	    </form>
 	  </section>
 </body>
