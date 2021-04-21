@@ -6,10 +6,11 @@
 	<link rel="stylesheet" href="./styles/styles.css">
 	<title>Document</title>
 <body class="page">
+	<div class="page__container">
 	<header class="header page__header">
 		<h1 class="header__title">HTTP DOCS</h1>
 	</header>	
-	<nav class="menu page__menu" id="navbar">
+	  <nav class="menu page__menu" id="navbar">
 	  <header style="display: none"></header>
 	  <ul class="nav nav__menu">
 	  	<li class="nav__item"><span class="nav__icon"></span><a href="#http_/_overview" class="nav__link nav-link">
@@ -82,7 +83,7 @@
 				frames. HTTP messages can be read and understood by 
 				humans, providing easier testing for developers, 
 				and reduced complexity for newcomers.
-			  </p><li>
+			  </p></li>
 		    	<li class="section__item">HTTP is extensible
 			  <p class="section__text">
 			  	HTTP is generally designed to be simple and human 
@@ -114,14 +115,14 @@
 		  </header>
 			<ul class="section__items">
 				<li class="section__item">Open a TCP Connection</li>
-				<li class="section__item">Send an HTTP message
+				<li class="section__item">Send an HTTP message <br>
       					<code class="section__code">
 						GET / HTTP/1.1 <br>
 						Host: developer.mozilla.org <br>
 						Accept-Language: fr 
 					</code>
 				</li>
-				<li class="section__item">Read the response sent by the server, such as
+				<li class="section__item">Read the response sent by the server, such as <br>
 				  <code class="section__code">
 				  	HTTP/1.1 200 OK <br>
 					Date: Monday, 13 Apr 2021 <br>
@@ -142,10 +143,10 @@
 			<h2 class="section__title">HTTP Messages</h2>
 		  </header>
 			<ul class="section__items">
-				<li class="section__item">REQUEST
+				<li class="section__item">REQUEST <br>
 					<img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign4/assets/image3.png" alt="request in HTTP" class="img section__image">
 				</li>
-				<li class="section__item">RESPONSES
+				<li class="section__item">RESPONSES <br>
 					<img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign4/assets/image4.png" alt="response in HTTP" class="img section__image">
 				</li>
 			</ul>
@@ -161,6 +162,7 @@
 			</p>	
 		</section>
 	</main>
+	</div>
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
