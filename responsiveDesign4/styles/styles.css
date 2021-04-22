@@ -86,7 +86,7 @@
 @media screen and (min-width: 600px) {
   .page__container {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 360px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "aa bb";
   }
