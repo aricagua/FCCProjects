@@ -7,60 +7,70 @@
 	<title>Personal Portfolio</title>
 </head>
 <body class="page">
-	<nav class="nav page__nav">
+	<nav class="nav page__nav" id="navbar">
 	  <ul class="nav__menu">
 	    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
 	    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
 	    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> 
 	  </ul>
 	</nav>
-	<section class="page__section section" id="about">
+	<section class="page__section section" id="welcome-section">
 	  <div class="section__container section__about">
 	    <h1 class="presentation">Hey I am Omar</h1><br>
 	    <span class="presentation__secondary">A Web Developer</span>
           </div>
 	</section>
-	<section class="page__section section" id="work">
+	<section class="page__section section" id="projects">
 	  <div class="section__container section__work">
 	  	<h2 class="section__title">These are some of my Projects</h2>
 		<div class="projects-container section__projects-container">
+		  <a href="https://codepen.io/aricagua-dev/pen/XWpVxJb">
 			<div class="projects-container__element">
 				<img class="image section__image" src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/projects/project1.png" alt="Project1"> 
 				<div class="projects-container__description">
-				  <p class="projects-container__text">Tribute Page</p>
+				  <p class="projects-container__text project-tile">Tribute Page</p>
 				</div>
 			</div>
+			</a>
+  		  <a href="https://codepen.io/aricagua-dev/pen/OJWzaqX">
 			<div class="projects-container__element">
 				<img class="image section__image" src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/projects/project2.png" alt="Project2"> 
 				<div class="projects-container__description">
 				  <p class="projects-container__text">Survey Form</p>
 				</div>
 			</div>		
+		  </a>
+		  <a href="https://codepen.io/aricagua-dev/pen/PoWXwxR">
 			<div class="projects-container__element">
 				<img class="image section__image" src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/projects/project3.png" alt="Project3"> 
 				<div class="projects-container__description">
 				  <p class="projects-container__text">Product Landing Page</p>
 				</div>
 			</div>		
+		  </a>
+		  <a href="https://codepen.io/aricagua-dev/pen/ZELVYPz">
 			<div class="projects-container__element">
 				<img class="image section__image" src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/projects/project4.png" alt="Project4"> 
 				<div class="projects-container__description">
 				  <p class="projects-container__text">Tecnical Doc Page</p>
 				</div>
 			</div>
+		  </a>
                 </div>
 	  </div>
 	</section>
 	<section class="page__section section" id="contact">
 		<div class="section__container section__contact contact">
-		  <h2 class="section__title">Let's Work Together</h2>
-		  <ul class="contact__container">
-		    <li class="contact__link"><img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/logos_twitter.svg" class="contact__icon_1 contact__icon" alt="icon1"><a class="contact__external" href="">Twitter</a></li>
-		    <li class="contact__link"><img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/Group.svg" class="contact__icon_2 contact__icon" alt="icon2"><a class="contact__external" href="">Email</a></li>
-		    <li class="contact__link"><img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/logos_whatsapp.svg" class="contact__icon_3 contact__icon" alt="icon3"><a class="contact__external" href="">Whatsapp</a></li>
-		    <li class="contact__link"><img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/Vector.svg" class="contact__icon_4 contact__icon" alt="icon4"><a class="contact__external" href="">Github</a></li> 
-		  </ul>
+		  <h2 class="section__title">Let's Work Together...</h2>
+		  <div class="contact__container">
+		    <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/logos_twitter.svg" class="contact__icon_1 contact__icon" alt="icon1"><a class="contact__external" href="">Twitter</a>
+		    <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/Group.svg" class="contact__icon_2 contact__icon" alt="icon2"><a class="contact__external" href="">Email</a>
+		    <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/logos_whatsapp.svg" class="contact__icon_3 contact__icon" alt="icon3"><a class="contact__external" href="">Whatsapp</a>
+		    <img src="https://raw.githubusercontent.com/aricagua/FCCProjects/main/responsiveDesign5/assets/images/icons/Vector.svg" class="contact__icon_4 contact__icon" alt="icon4"><a class="contact__external" href="https://github.com/aricagua/FCCProjects" id="profile-link" target="_blank">Github</a>
+		  </div>
 		</div>
 	</section>
+        <footer class="page__footer">Made with love <span class="heart-icon"></span> by Omar Andrade</footer>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
